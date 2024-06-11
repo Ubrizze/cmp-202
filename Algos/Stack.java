@@ -1,5 +1,3 @@
-package DSA.Arrays.Algos;
-
 public class Stack {
     int size;
     int top;
@@ -55,15 +53,12 @@ public class Stack {
         printElementsInRecursive(index + 1);
     }
     public static void main(String[] args) {
-        Stack myStack = new Stack(5);
-        // System.out.println(myStack.size);
-        myStack.push(45);        
-        myStack.push(12);        
-        myStack.push(5);        
-        myStack.push(35);        
-        myStack.push(15);
+        Stack myStack = new Stack(3);
+        myStack.push(34);        
+        myStack.push(67);        
+        myStack.push(10);
         myStack.pop();
-        // System.out.println(myStack.size);
+        System.out.println(myStack.size);
         myStack.printItems();
     }
 }
