@@ -1,5 +1,3 @@
-package DSA.Arrays;
-
 public class Palindrome {
     public static boolean isPalindrome(String str) {
         str = str.replace("\\s+", "").toLowerCase();
@@ -15,11 +13,8 @@ public class Palindrome {
         return true;
     }
     public static void main(String[] args) {
-        String string = "wow";
-        if (isPalindrome(string)) {
-            System.out.println(string + " is a palindrome");
-        } else {
-            System.out.println(string + " is not a palindrome");
+        String string = "civic";
+        isPalindrome(string)
         }
     }
 }
