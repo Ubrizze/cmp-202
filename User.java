@@ -1,15 +1,15 @@
 public class User {
-    String username = "Dan-Codes";
-    String email = "daniel@mail.com";
+    String username = "Ubah";
+    String email = "ubah@gmail.com";
     String login() {
-        if (username.equals("Dan-Codes") && email.equals("daniel@mail.com")) {
-            return "Logged in";
+        if (username.equals("Ubah") && email.equals("ubah@gmail.com")) {
+            return "Log in";
         } else {
-            return "Failed";
+            return "Couldn't log in";
         }
     }
     public static void main(String[] args) {
-        User jane = new User();
-        System.out.println(jane.login());
+        User user = new User();
+        System.out.println(user.login());
     }
 }
