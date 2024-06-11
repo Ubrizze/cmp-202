@@ -1,13 +1,11 @@
-package DSA.Arrays.Algos;
-
 public class Swap {
     public static void main(String[] args) {
-        int number = 78;
-        int anotherNumber = 10;
+        int number = 48;
+        int anotherNumber = 112;
         int lastNum = number;
         number = anotherNumber;
-        anotherNumber = lastNum;
-        System.out.println(anotherNumber);
+        temp = lastNum;
+        System.out.println(temp);
         System.out.println(number);
     }
 }
