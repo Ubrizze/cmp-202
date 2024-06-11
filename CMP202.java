@@ -5,12 +5,12 @@ public class CMP202 {
     String password;
 
     void printUserDetails() {
-        age = 23;
-        height = 172;
-        name = "Dan-Codes";
+        age = 17;
+        height = 186;
+        name = "Ubah Joshua";
         name.length();
-        password = "User@123";
-        if (password.contains("123") || password.contains("User")) {
+        password = "UbahJosh123";
+        if (password.contains("123") || password.contains("Ubah")) {
             System.out.println("Password is not strong enough");
         }
     }    
